@@ -29,5 +29,6 @@ on boot
     chmod 660 /sys/devices/i2c-0/0-0053/flash_current
     chown system camera /sys/devices/i2c-0/0-0053/status
 
-    # Camera/Libals
+    # Other
     chown media input /dev/input/event11
+    chown media input /dev/input/mice
